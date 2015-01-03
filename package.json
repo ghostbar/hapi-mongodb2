@@ -1,6 +1,6 @@
 {
   "name": "hapi-mongodb2",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Hapi's MongoDB 2.0 native driver plugin",
   "main": "index.js",
   "scripts": {
