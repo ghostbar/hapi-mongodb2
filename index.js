@@ -15,6 +15,8 @@ exports.register = function (plugin, opts, next) {
 
     plugin.log(['hapi-mongodb2', 'info'], 'Successfully connected to MongoDB datastore');
     plugin.expose('client', db);
+    plugin.expose('lib', mongodb);
+
     plugin.bind({ mongo: db });
     next();
   });
