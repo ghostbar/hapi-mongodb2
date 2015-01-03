@@ -44,6 +44,6 @@ The object returned by `MongoClient.connect` is exposed on `server.plugins['hapi
 License
 -------
 
-Licensed under the terms of the ISC.
+Licensed under the terms of the ISC. A copy of the license can be found in the file `LICENSE`.
 
 © 2015, Jose Luis Rivas `<me@ghostbar.co>`
