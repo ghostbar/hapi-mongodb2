@@ -1,7 +1,7 @@
 hapi-mongodb2
 =============
 
-Hapi (^8.0) plugin for MongoDB native driver 2.0.
+Hapi (^8.0) plugin for the MongoDB native driver 2.0.
 
 Register plugin
 ---------------
