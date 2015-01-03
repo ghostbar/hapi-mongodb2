@@ -40,3 +40,10 @@ The object returned by `MongoClient.connect` is exposed on `server.plugins['hapi
         });
       }
     });
+
+License
+-------
+
+Licensed under the terms of the ISC.
+
+© 2015, Jose Luis Rivas `<me@ghostbar.co>`
