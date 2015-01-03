@@ -1,0 +1,32 @@
+{
+  "name": "hapi-mongodb2",
+  "version": "0.1.0",
+  "description": "Hapi's MongoDB 2.0 native driver plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ghostbar/hapi-mongodb2"
+  },
+  "keywords": [
+    "mongodb",
+    "mongo",
+    "driver",
+    "hapi",
+    "plugin"
+  ],
+  "author": "Jose-Luis Rivas <me@ghostbar.co>",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^2.0.12"
+  },
+  "devDependencies": {
+    "hapi": "^8.0.0",
+    "mocha": "^2.1.0"
+  },
+  "peerDependencies": {
+    "hapi": "^8.0.0"
+  }
+}
