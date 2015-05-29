@@ -3,6 +3,11 @@ hapi-mongodb2
 
 Hapi (^8.0) plugin for the MongoDB native driver 2.0.
 
+Install
+-------
+
+    npm install --save mongodb@2 hapi-mongodb2
+
 Register plugin
 ---------------
 
