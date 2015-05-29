@@ -26,7 +26,7 @@ Use plugin
 
 The object returned by `MongoClient.connect` is exposed on `server.plugins['hapi-mongodb2'].client` and binded to the context on routes and extensions as `this.mongo`.
 
-If by any chance you need to use the `mongodb` library itself you can get it from `server.plugins['hapi-mongodb2'].lib`.
+If by any chance you need to use the `mongodb` library itself you can get it from `server.plugins['hapi-mongodb2'].library`.
 
     server.route({
       method: 'GET',
